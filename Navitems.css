@@ -1,0 +1,49 @@
+/* src/components/Navitems.css */
+
+/* Reset box-sizing and default styles */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+
+}
+
+/* Container for nav items */
+.d-flex {
+  display: flex;
+  width: 100%;
+  justify-content: center; /*center items horizontally
+  flex-wrap: wrap;         /* wrap items on small screens */
+  background-color: #000;  /* black background */
+  padding: 10px 0;
+}
+
+/* Individual nav link styles */
+.d-flex a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 0.95rem;
+}
+
+/* Hover and active state effects */
+.d-flex a:hover,
+.d-flex a:focus {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+/* Responsive: when screen is 600px or less */
+@media (max-width: 600px) {
+  .d-flex {
+    justify-content: space-around;
+  }
+
+  .d-flex a {
+   width: 100vh;
+  
+    text-align: center;
+  }
+}

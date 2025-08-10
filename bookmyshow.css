@@ -1,0 +1,46 @@
+/* Container for city cards */
+.bookmyshow-container input{
+    width: 100%;
+}
+.bookmyshow-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+/* Individual card styling */
+.bookmyshow-container a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #867878;
+  font-weight: lighter;
+  
+  
+  border-radius: 8px;
+  /* padding: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; */
+}
+
+/* Hover/focus effect */
+.bookmyshow-container a:hover,
+.bookmyshow-container a:focus {
+  font-weight: 400;
+}
+
+/* City images */
+.bookmyshow-container img {
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+}
+
+/* City titles */
+.bookmyshow-container p {
+  margin: 0.5rem 0 0;
+  text-transform: capitalize;
+  color: #666363;
+  font-weight:400px;}
